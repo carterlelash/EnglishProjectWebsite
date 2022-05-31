@@ -9,7 +9,7 @@
 
     position:relative;
     margin:auto;
-    bottom:600px;
+    /* bottom:600px; */
 }
 #title {
     text-align: center;
@@ -266,8 +266,8 @@
 
     position:relative;
     margin:auto;
-    left:-150px;
-    bottom:653px;
+    /* left:-150px;
+    bottom:653px; */
 }
 #date1960 {
     display: flex;
@@ -276,8 +276,8 @@
 
     position:relative;
     margin:auto;
-    left:-50px;
-    bottom:673px;
+    /* left:-50px;
+    bottom:673px; */
 }
 #date1970 {
     display: flex;
@@ -286,8 +286,8 @@
 
     position:relative;
     margin:auto;
-    left:50px;
-    bottom:693px;
+    /* left:50px;
+    bottom:693px; */
 }
 #date1980 {
     display: flex;
@@ -296,8 +296,8 @@
 
     position:relative;
     margin:auto;
-    left:150px;
-    bottom:713px;
+    /* left:150px;
+    bottom:713px; */
 }
 #startmarker, #endmarker {
     border: 1px;
@@ -313,8 +313,8 @@
 
     position:relative;
     margin:auto;
-    left: -250px;
-    bottom:613px;
+    /* left: -250px;
+    bottom:613px; */
 }
 
 #endmarker {
@@ -325,8 +325,8 @@
 
     position:relative;
     margin:auto;
-    left:250px;
-    bottom:633px;
+    /* left:250px;
+    bottom:633px; */
 }
 * {
     font-family: 'Courier New', Courier, monospace;
