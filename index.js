@@ -14,10 +14,10 @@ let text1970 = document.getElementById("text1970");
 let text1980 = document.getElementById("text1980");
 let text1990 = document.getElementById("text1990");
 
-let image1990One = document.getElementById("nelsonMandelaImage1");
-let caption1990One = document.getElementById("nelsonMandelaCaption1")
-let image1990Two = document.getElementById("FWdeKlerkImage2");
-let caption1990Two = document.getElementById("FWdeKlerkCaptionTwo")
+//let image1990One = document.getElementById("nelsonMandelaImage1");
+//let caption1990One = document.getElementById("nelsonMandelaCaption1")
+//let image1990Two = document.getElementById("FWdeKlerkImage2");
+//let caption1990Two = document.getElementById("FWdeKlerkCaptionTwo")
 
 function revealText (event) {
     if (event.target == button1948) {

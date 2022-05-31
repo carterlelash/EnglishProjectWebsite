@@ -29,13 +29,13 @@
     width:150px;
     top:-140px;
 }
-#sourcesLink {
+/*#sourcesLink {
     position: relative;
     left:1575px;
     bottom:75px;
     height:50px;
     width:100px;
-}
+}*/
 #date1950, #date1960, #date1970, #date1980 {
     border: 1px;
     height: 20px;
@@ -59,7 +59,7 @@
     position: relative;
 } */
 
-#nelsonMandelaImage1 {
+/*#nelsonMandelaImage1 {
     height:200px;
     width:300px;
     display: flex;
@@ -118,7 +118,7 @@
 
 .FWdeKlerkImageTwo {
     visibility:visible;
-}
+}*/
 .allButtons {
     top:0px;
 }
