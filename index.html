@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apartheid TimeLine - Interactive Website</title>
+    <h1 id = "title">Apartheid - Interactive Timeline</h1>
+    <h3 id = "secondary">Click on any date to learn more.</h3>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "./style.css" rel = "stylesheet">
+</head>
+<body>
+<a href = "./secondpage.html" id = "sourcesLink">Sources</a>
+
+<h6 id = "credits">Made by: Carter Lelash</h6>
+    <button id = "button1948" class = "allButtons">1948</button>
+    <button id = "button1950" class = "allButtons">1950</button>
+    <button id = "button1960" class = "allButtons">1960</button>
+    <button id = "button1970" class = "allButtons">1970</button>
+    <button id = "button1980" class = "allButtons">1980</button>
+    <button id = "button1990" class = "allButtons">1990</button>
+    <button id = "resetButton" class = "allButtons">Reset</button>
+
+    <p id = "text1948" class = "textBoxes">text1948</p>
+    <p id = "text1950" class = "textBoxes">text1950</p>
+    <p id = "text1960" class = "textBoxes">text1960</p>
+    <p id = "text1970" class = "textBoxes">text1970</p>
+    <p id = "text1980" class = "textBoxes">text1980</p>
+    <p id = "text1990" class = "textBoxes">text1990</p>
+
+    <figure>
+        <img src = "./Images/Nelson-Mandela-Image-1.jpg" id = "nelsonMandelaImage1" alt = "Nelson Mandela" class = "nelsonMandelaImageOne">
+        <figcaption id = "nelsonMandelaCaption1" class = "nelsonMandelaImageOne">Nelson Mandela</figcaption>
+    </figure>
+    <figure>
+        <img src = "Images/FWdeKlerk.jpg" id = "FWdeKlerkImage2" alt = "FWdeKlerk" class = "FWdeKlerkImageTwo">
+        <figcaption id = "FWdeKlerkCaptionTwo" class = "FWdeKlerkImageTwo">F.W. de Klerk</figcaption>
+    </figure>
+   
+    <div id = "mainline"></div>
+    <div id = "startmarker"></div>
+    <div id = "endmarker"></div>
+    <div id = "date1950"></div>
+    <div id = "date1960"></div>
+    <div id = "date1970"></div>
+    <div id = "date1980"></div>
+    <div id = "date1990"></div>
+
+    <script src = "./index.js"></script>
+
+</body>
+</html>

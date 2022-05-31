@@ -1,0 +1,338 @@
+#mainline {
+    border: 5px;
+    height: 5px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    bottom:600px;
+}
+#title {
+    text-align: center;
+}
+#secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+}
+#credits {
+    color: dimgray;
+    position:relative;
+    height:50px;
+    width:150px;
+    top:-140px;
+}
+#sourcesLink {
+    position: relative;
+    left:1575px;
+    bottom:75px;
+    height:50px;
+    width:100px;
+}
+#date1950, #date1960, #date1970, #date1980 {
+    border: 1px;
+    height: 20px;
+    width: 5px;
+    background-color: black;
+}
+#text1948,#text1950,#text1960,#text1970,#text1980,#text1990 {
+    visibility:hidden;
+    color: white;
+    border: solid black;
+    background-color: dimgrey;
+}
+#button1948,#button1950,#button1960,#button1970,#button1980,#button1990 {
+    background-color: dimgrey;
+    position: relative;
+}
+/* #testingsomething {
+    height:100px;
+    width:100px;
+    background-color:red;
+    position: relative;
+} */
+
+#nelsonMandelaImage1 {
+    height:200px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:-550px;
+    bottom:300px;
+    
+}
+
+#nelsonMandelaCaption1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height:50px;
+    width:200px;
+    left:-550px;
+    bottom:280px;
+}
+
+.nelsonMandelaImageOne {
+    visibility:visible;
+}
+
+#FWdeKlerkImage2 {
+    height:200px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    bottom:575px;
+    left:500px;
+}
+
+#FWdeKlerkCaptionTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height:50px;
+    width:200px;
+    left:500px;
+    bottom:555px;
+}
+
+.FWdeKlerkImageTwo {
+    visibility:visible;
+}
+.allButtons {
+    top:0px;
+}
+#resetButton {
+    background-color:lightsteelblue;
+    height: 20px;
+    width:100px;
+    bottom:180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+}
+#button1948 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:200px;
+    left:-250px;
+}
+#button1950 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:179px;
+    left:-150px;
+}
+#button1960 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:158px;
+    left:-50px;
+}
+#button1970 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:137px;
+    left:50px;
+}
+#button1980 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:116px;
+    left:150px;
+}
+#button1990 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:95px;
+    left:250px;
+}
+#text1948 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top:215px;
+}
+#text1950 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top: 192px;
+}
+#text1960 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top:169px;
+}
+#text1970 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top:146px;
+}
+#text1980 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top:123px;
+}
+#text1990 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height: 20px;
+    width: 100px;
+    top:100px;
+}
+#date1950 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:-150px;
+    bottom:653px;
+}
+#date1960 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:-50px;
+    bottom:673px;
+}
+#date1970 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:50px;
+    bottom:693px;
+}
+#date1980 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:150px;
+    bottom:713px;
+}
+#startmarker, #endmarker {
+    border: 1px;
+    height: 20px;
+    width: 5px;
+    position: fixed;
+}
+#startmarker {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left: -250px;
+    bottom:613px;
+}
+
+#endmarker {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:250px;
+    bottom:633px;
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+    /*border:dashed red;*/
+}
+body {
+    background-color: silver;
+    font-family: 'Courier New', Courier, monospace;
+}
