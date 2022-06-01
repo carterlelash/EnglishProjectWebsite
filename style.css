@@ -9,7 +9,7 @@
 
     position:relative;
     margin:auto;
-    top:-650px;
+    top:-1760px;
 }
 #title {
     text-align: center;
@@ -53,6 +53,7 @@
 } */
 
 #nelsonMandelaImage1 {
+    visibility: hidden;
     height:200px;
     width:300px;
     display: flex;
@@ -67,6 +68,7 @@
 }
 
 #nelsonMandelaCaption1 {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,10 +82,11 @@
 }
 
 .nelsonMandelaImageOne {
-    visibility:visible;
+    visibility: hidden;
 }
 
 #FWdeKlerkImage2 {
+    visibility: hidden;
     height:200px;
     width:300px;
     display: flex;
@@ -97,6 +100,7 @@
 }
 
 #FWdeKlerkCaptionTwo {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,10 +114,11 @@
 }
 
 .FWdeKlerkImageTwo {
-    visibility:visible;
+    visibility: hidden;
 }
 
 #apartheidImage3 {
+    visibility: hidden;
     height:200px;
     width:300px;
     display: flex;
@@ -127,19 +132,21 @@
 }
 
 #apartheidImageCaption3 {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 
     position:relative;
     margin:auto;
-    top:-855px;
+    bottom: 865px;
     left:500px;
     height:100px;
     width:300px;
 }
 
 #apartheidImage4 {
+    visibility: hidden;
     height:200px;
     width:300px;
     display: flex;
@@ -153,6 +160,7 @@
 }
 
 #apartheidImageCaption4 {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,6 +172,7 @@
 }
 
 #apartheidImage5 {
+    visibility: hidden;
     height:200px;
     width:300px;
     display: flex;
@@ -177,6 +186,7 @@
 }
 
 #apartheidImageCaption5 {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,6 +195,35 @@
     margin:auto;
     bottom:1380px;
     left:-550px;
+}
+
+#apartheidImage6 {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    height:200px;
+    width:300px; 
+    bottom:1640px;
+    left:500px;
+}
+
+#apartheidImageCaption6 {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:500px;
+    bottom:1660px;
+    height:100px;
+    width:300px;
+    text-align: center;
 }
 .allButtons {
     top:0px;
@@ -334,7 +373,7 @@
     position:relative;
     margin:auto;
     left:-150px;
-    top:-703px;
+    top:-1813px;
 }
 #date1960 {
     display: flex;
@@ -344,7 +383,7 @@
     position:relative;
     margin:auto;
     left:-50px;
-    top:-723px;
+    top:-1833px;
 }
 #date1970 {
     display: flex;
@@ -354,7 +393,7 @@
     position:relative;
     margin:auto;
     left:50px;
-    top:-743px;
+    top:-1853px;
 }
 #date1980 {
     display: flex;
@@ -364,7 +403,7 @@
     position:relative;
     margin:auto;
     left:150px;
-    top:-763px;
+    top:-1873px;
 }
 #startmarker, #endmarker {
     border: 1px;
@@ -381,7 +420,7 @@
     position:relative;
     margin:auto;
     left: -250px;
-    top:-663px;
+    top:-1773px;
 }
 
 #endmarker {
@@ -393,11 +432,11 @@
     position:relative;
     margin:auto;
     left:250px;
-    top:-683px;
+    top:-1793px;
 }
 * {
     font-family: 'Courier New', Courier, monospace;
-    border:dashed red;
+    /*border:dashed red;*/
 }
 body {
     background-color: silver;
