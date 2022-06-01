@@ -14,10 +14,20 @@ let text1970 = document.getElementById("text1970");
 let text1980 = document.getElementById("text1980");
 let text1990 = document.getElementById("text1990");
 
-//let image1990One = document.getElementById("nelsonMandelaImage1");
-//let caption1990One = document.getElementById("nelsonMandelaCaption1")
-//let image1990Two = document.getElementById("FWdeKlerkImage2");
-//let caption1990Two = document.getElementById("FWdeKlerkCaptionTwo")
+let image1990One = document.getElementById("nelsonMandelaImage1");
+let caption1990One = document.getElementById("nelsonMandelaCaption1")
+
+let image1990Two = document.getElementById("FWdeKlerkImage2");
+let caption1990Two = document.getElementById("FWdeKlerkCaptionTwo")
+
+let image1960Three = document.getElementById("apartheidImage3");
+let caption1960Three = document.getElementById("apartheidImageCaption3");
+
+let image1960Four = document.getElementById("apartheidImage4");
+let caption1960Four = document.getElementById("apartheidImageCaption4");
+
+let image1980Five = document.getElementById("apartheidImage5");
+let caption1980Five = document.getElementById("apartheidImageCaption5");
 
 function revealText (event) {
     if (event.target == button1948) {
@@ -35,6 +45,8 @@ function revealText (event) {
         text1970.style.visibility = "hidden";
         text1980.style.visibility = "hidden";
         text1990.style.visibility = "hidden";
+        image1980Five.style.visibility = "visible";
+        caption1980Five.style.visibility = "visible";
     }
     if (event.target == button1960) {
         text1948.style.visibility = "hidden";
@@ -43,6 +55,10 @@ function revealText (event) {
         text1970.style.visibility = "hidden";
         text1980.style.visibility = "hidden";
         text1990.style.visibility = "hidden";
+        image1960Three.style.visibility = "visible";
+        caption1960Three.style.visibility = "visible";
+        image1960Four.style.visibility = "visible";
+        caption1960Four.style.visibility = "visible";
     }
     if (event.target == button1970) {
         text1948.style.visibility = "hidden";
@@ -85,6 +101,12 @@ function clearAll () {
     caption1990One.style.visibility = "hidden";
     image1990Two.style.visibility = "hidden";
     caption1990Two.style.visibility = "hidden";
+    image1960Three.style.visibility = "hidden";
+    caption1960Three.style.visibility = "hidden";
+    image1960Four.style.visibility = "hidden";
+    caption1960Four.style.visibility = "hidden";
+    image1980Five.style.visibility = "hidden";
+    caption1980Five.style.visibility = "hidden";
 }
 
 button1948.addEventListener("click",revealText);

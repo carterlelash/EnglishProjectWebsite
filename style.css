@@ -9,7 +9,7 @@
 
     position:relative;
     margin:auto;
-    left:-300px;
+    top:-650px;
 }
 #title {
     text-align: center;
@@ -21,13 +21,6 @@
 
     position:relative;
     margin:auto;
-}
-#credits {
-    color: dimgray;
-    position:relative;
-    height:50px;
-    width:150px;
-    top:-140px;
 }
 /*#sourcesLink {
     position: relative;
@@ -59,7 +52,7 @@
     position: relative;
 } */
 
-/*#nelsonMandelaImage1 {
+#nelsonMandelaImage1 {
     height:200px;
     width:300px;
     display: flex;
@@ -118,7 +111,81 @@
 
 .FWdeKlerkImageTwo {
     visibility:visible;
-}*/
+}
+
+#apartheidImage3 {
+    height:200px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:-850px;
+    left:500px;
+}
+
+#apartheidImageCaption3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:-855px;
+    left:500px;
+    height:100px;
+    width:300px;
+}
+
+#apartheidImage4 {
+    height:200px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:-550px;
+    top:-1172px;
+}
+
+#apartheidImageCaption4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    left:-550px;
+    bottom:1140px;
+}
+
+#apartheidImage5 {
+    height:200px;
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    bottom:1417px;
+    left:-550px;
+}
+
+#apartheidImageCaption5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    bottom:1380px;
+    left:-550px;
+}
 .allButtons {
     top:0px;
 }
@@ -266,8 +333,8 @@
 
     position:relative;
     margin:auto;
-    /* left:-150px;
-    bottom:653px; */
+    left:-150px;
+    top:-703px;
 }
 #date1960 {
     display: flex;
@@ -276,8 +343,8 @@
 
     position:relative;
     margin:auto;
-    /* left:-50px;
-    bottom:673px; */
+    left:-50px;
+    top:-723px;
 }
 #date1970 {
     display: flex;
@@ -286,8 +353,8 @@
 
     position:relative;
     margin:auto;
-    /* left:50px;
-    bottom:693px; */
+    left:50px;
+    top:-743px;
 }
 #date1980 {
     display: flex;
@@ -296,8 +363,8 @@
 
     position:relative;
     margin:auto;
-    /* left:150px;
-    bottom:713px; */
+    left:150px;
+    top:-763px;
 }
 #startmarker, #endmarker {
     border: 1px;
@@ -313,8 +380,8 @@
 
     position:relative;
     margin:auto;
-    /* left: -250px;
-    bottom:613px; */
+    left: -250px;
+    top:-663px;
 }
 
 #endmarker {
@@ -325,12 +392,12 @@
 
     position:relative;
     margin:auto;
-    /* left:250px;
-    bottom:633px; */
+    left:250px;
+    top:-683px;
 }
 * {
     font-family: 'Courier New', Courier, monospace;
-    /*border:dashed red;*/
+    border:dashed red;
 }
 body {
     background-color: silver;
