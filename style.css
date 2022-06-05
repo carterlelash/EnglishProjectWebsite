@@ -2,11 +2,12 @@
     text-align: center;
     height:100px;
     width:700px;
+    left:500px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    position:relative;
+    position:absolute;
     margin:auto;
     
 }
@@ -15,13 +16,13 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     height:100px;
     width:1000px;
     left:350px;
-    top:30px;
+    top:50px;
 }
 #sourcesLink {
     display: flex;
@@ -45,7 +46,7 @@
 }
 #button1948,#button1950,#button1960,#button1970,#button1980,#button1990 {
     background-color: dimgrey;
-    position: fixed;
+    position: absolute;
     
 }
 #nelsonMandelaImage1 {
@@ -56,7 +57,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     top:500px;
     left:1025px;
@@ -70,7 +71,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -94,7 +95,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
 }
@@ -105,7 +106,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -129,7 +130,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
 }
@@ -140,7 +141,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -159,7 +160,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
 }
@@ -170,7 +171,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -189,7 +190,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
 }
@@ -200,7 +201,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -215,7 +216,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:300px;
     width:450px; 
@@ -230,7 +231,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -246,7 +247,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:300px;
     width:450px; 
@@ -260,7 +261,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -274,7 +275,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:300px;
     width:450px; 
@@ -288,7 +289,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -303,7 +304,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:300px;
     width:450px; 
@@ -317,7 +318,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -332,7 +333,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:300px;
     width:450px; 
@@ -345,7 +346,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:50px;
     width:400px;
@@ -365,7 +366,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:750px;
@@ -376,7 +377,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:300px;
@@ -387,7 +388,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:375px;
@@ -398,7 +399,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:450px;
@@ -409,7 +410,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:525px;
@@ -420,7 +421,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:600px;
@@ -431,7 +432,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     
     top:675px;
@@ -442,7 +443,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height:750px;
     width:600px;
@@ -457,7 +458,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height: 750px;
     width: 600px;
@@ -471,7 +472,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height: 750px;
     width: 600px;
@@ -484,7 +485,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position:fixed;
+    position:absolute;
     margin:auto;
     height: 750px;
     width: 600px;
@@ -498,7 +499,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     text-align:left;
     height: 750px;
@@ -513,7 +514,7 @@
     align-items: center;
     justify-content: center;
 
-    position:fixed;
+    position:absolute;
     margin:auto;
     height: 750px;
     width: 600px;
@@ -521,6 +522,13 @@
     left:50px;
     
     visibility: hidden;
+}
+#scrollBoi {
+    height:20px;
+    width:20px;
+    position:absolute;
+    top:1200px;
+    visibility: visible;
 }
 body {
     background-color: silver;
