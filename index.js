@@ -31,6 +31,19 @@ let caption1980Five = document.getElementById("apartheidImageCaption5");
 
 let image1980Six = document.getElementById("apartheidImage6");
 let caption1980Six = document.getElementById("apartheidImageCaption6");
+
+let image1950Seven = document.getElementById("apartheidImage7");
+let caption1950Seven = document.getElementById("apartheidImageCaption7");
+
+let image1950Eight = document.getElementById("apartheidImage8");
+let caption1950Eight = document.getElementById("apartheidImageCaption8");
+
+let image1948Nine = document.getElementById("apartheidImage9");
+let caption1948Nine = document.getElementById("apartheidImageCaption9");
+
+let image1970Ten = document.getElementById("apartheidImage10");
+let caption1970Ten = document.getElementById("apartheidImageCaption10");
+
 function revealText (event) {
     if (event.target == button1948) {
     text1948.style.visibility = "visible";
@@ -51,6 +64,14 @@ function revealText (event) {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "visible";
+    caption1948Nine.style.visibility = "visible";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
     }
     if (event.target == button1950) {
     text1948.style.visibility = "hidden";
@@ -71,6 +92,15 @@ function revealText (event) {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "visible";
+    caption1950Seven.style.visibility = "visible";
+    image1950Eight.style.visibility = "visible";
+    caption1950Eight.style.visibility = "visible";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
+
     }
     if (event.target == button1960) {
     text1948.style.visibility = "hidden";
@@ -91,6 +121,15 @@ function revealText (event) {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
+
     }
     if (event.target == button1970) {
     text1948.style.visibility = "hidden";
@@ -111,6 +150,15 @@ function revealText (event) {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "visible";
+    caption1970Ten.style.visibility = "visible";
+
     }
     if (event.target == button1980) {
     text1948.style.visibility = "hidden";
@@ -119,26 +167,6 @@ function revealText (event) {
     text1970.style.visibility = "hidden";
     text1980.style.visibility = "visible";
     text1990.style.visibility = "hidden";
-    image1990One.style.visibility = "hidden";
-    caption1990One.style.visibility = "hidden";
-    image1990Two.style.visibility = "hidden";
-    caption1990Two.style.visibility = "hidden";
-    image1960Three.style.visibility = "hidden";
-    caption1960Three.style.visibility = "hidden";
-    image1960Four.style.visibility = "hidden";
-    caption1960Four.style.visibility = "hidden";
-    image1980Five.style.visibility = "visible";
-    caption1980Five.style.visibility = "visible";
-    image1980Six.style.visibility = "visible";
-    caption1980Six.style.visibility = "visible";
-    }
-    if (event.target == button1990) {
-    text1948.style.visibility = "hidden";
-    text1950.style.visibility = "hidden";
-    text1960.style.visibility = "hidden";
-    text1970.style.visibility = "hidden";
-    text1980.style.visibility = "hidden";
-    text1990.style.visibility = "visible";
     image1990One.style.visibility = "visible";
     caption1990One.style.visibility = "visible";
     image1990Two.style.visibility = "visible";
@@ -151,6 +179,44 @@ function revealText (event) {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
+
+    }
+    if (event.target == button1990) {
+    text1948.style.visibility = "hidden";
+    text1950.style.visibility = "hidden";
+    text1960.style.visibility = "hidden";
+    text1970.style.visibility = "hidden";
+    text1980.style.visibility = "hidden";
+    text1990.style.visibility = "visible";
+    image1990One.style.visibility = "hidden";
+    caption1990One.style.visibility = "hidden";
+    image1990Two.style.visibility = "hidden";
+    caption1990Two.style.visibility = "hidden";
+    image1960Three.style.visibility = "hidden";
+    caption1960Three.style.visibility = "hidden";
+    image1960Four.style.visibility = "hidden";
+    caption1960Four.style.visibility = "hidden";
+    image1980Five.style.visibility = "visible";
+    caption1980Five.style.visibility = "visible";
+    image1980Six.style.visibility = "visible";
+    caption1980Six.style.visibility = "visible";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
+
     }
 }
 
@@ -173,6 +239,15 @@ function clearAll () {
     caption1980Five.style.visibility = "hidden";
     image1980Six.style.visibility = "hidden";
     caption1980Six.style.visibility = "hidden";
+    image1950Seven.style.visibility = "hidden";
+    caption1950Seven.style.visibility = "hidden";
+    image1950Eight.style.visibility = "hidden";
+    caption1950Eight.style.visibility = "hidden";
+    image1948Nine.style.visibility = "hidden";
+    caption1948Nine.style.visibility = "hidden";
+    image1970Ten.style.visibility = "hidden";
+    caption1970Ten.style.visibility = "hidden";
+
 }
 
 button1948.addEventListener("click",revealText);

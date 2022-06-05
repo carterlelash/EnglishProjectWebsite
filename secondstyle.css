@@ -1,0 +1,84 @@
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+}
+#historycom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:50px;
+}
+#Britannica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;
+    top:75px;
+}
+#Stategov {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;   
+    top:100px;
+}
+#Britannica2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto; 
+    top:125px;  
+}
+#Sahistory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto; 
+    top:150px;  
+}
+#backLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;   
+    top:350px;
+}
+#websiteSources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto; 
+    top:25px;  
+}
+#imageSources {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+    margin:auto;   
+    top:300px;
+}
+* {
+    background-color: silver;
+    /* border: dashed red; */
+}
