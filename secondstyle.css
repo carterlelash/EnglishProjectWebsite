@@ -58,7 +58,7 @@
 
     position:relative;
     margin:auto;   
-    top:350px;
+    top:200px;
 }
 #websiteSources {
     display: flex;
@@ -68,15 +68,6 @@
     position:relative;
     margin:auto; 
     top:25px;  
-}
-#imageSources {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:relative;
-    margin:auto;   
-    top:300px;
 }
 * {
     background-color: silver;

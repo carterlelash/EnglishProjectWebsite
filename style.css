@@ -18,7 +18,7 @@
 
     position:absolute;
     margin:auto;
-    
+    text-align:center;
     height:100px;
     width:1000px;
     left:350px;
@@ -49,6 +49,7 @@
     position: absolute;
     
 }
+
 #nelsonMandelaImage1 {
     visibility: hidden;
     height:300px;
@@ -59,29 +60,12 @@
 
     position:absolute;
     margin:auto;
+    background: url("Images/Nelson-Mandela-Image-1.jpg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
     top:500px;
     left:1025px;
     
-    
-}
-
-#nelsonMandelaCaption1 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:800px;
-    left:1050px;
-    
-}
-
-.nelsonMandelaImageOne {
-    visibility: visible;
     
 }
 
@@ -97,27 +81,9 @@
 
     position:absolute;
     margin:auto;
-    
-}
-
-#FWdeKlerkCaptionTwo {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:450px;
-    left:1050px;
-    
-}
-
-.FWdeKlerkImageTwo {
-    visibility: visible;
-    
+    background: url("Images/FWdeKlerk.jpg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage3 {
@@ -132,22 +98,9 @@
 
     position:absolute;
     margin:auto;
-    
-}
-
-#apartheidImageCaption3 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:800px;
-    left:1050px;
-    
+    background: url("Images/1_Kq3ODBk2YJcukpT9I0wxjg.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage4 {
@@ -162,22 +115,9 @@
 
     position:absolute;
     margin:auto;
-    
-}
-
-#apartheidImageCaption4 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:450px;
-    left:1050px;
-    
+    background: url("Images/photo-gallery-apartheid-getty-2664162.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage5 {
@@ -192,22 +132,9 @@
 
     position:absolute;
     margin:auto;
-    
-}
-
-#apartheidImageCaption5 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:800px;
-    left:1050px;
-    
+    background: url("Images/harvardapartheidprotest.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage6 {
@@ -222,23 +149,9 @@
     width:450px; 
     top:150px;
     left:1025px;
-    
-}
-
-#apartheidImageCaption6 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:450px;
-    left:1050px;
-    text-align: center;
-    
+    background: url("Images/no_british_arms_for_south_africa_s.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage7 {
@@ -253,22 +166,11 @@
     width:450px; 
     top:500px;
     left:1025px;
+    background: url("Images/za}anc.gif");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
-#apartheidImageCaption7 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:800px;
-    left:1050px;
-    text-align: center;
-}
 #apartheidImage8 {
     visibility: hidden;
     display:flex;
@@ -281,22 +183,11 @@
     width:450px; 
     top:150px;
     left:1025px;
+    background: url("Images/NPSA_Logo.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
-#apartheidImageCaption8 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:450px;
-    left:1050px;
-    text-align: center;
-}
 
 #apartheidImage9 {
     visibility: hidden;
@@ -308,23 +199,11 @@
     margin:auto;
     height:300px;
     width:450px; 
-    top:325px;
+    top:150px;
     left:1025px;
-}
-
-#apartheidImageCaption9 {
-    visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position:absolute;
-    margin:auto;
-    height:50px;
-    width:400px;
-    top:625px;
-    left:1050px;
-    text-align: center;
+    background: url("Images/South_Africa_racial_map,_1979.gif");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
 
 #apartheidImage10 {
@@ -337,27 +216,238 @@
     margin:auto;
     height:300px;
     width:450px; 
-    top:325px;
+    top:150px;
     left:1025px;
+    background: url("Images/apartheidsign.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
-#apartheidImageCaption10 {
+#apartheidImage11 {
     visibility: hidden;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
 
     position:absolute;
     margin:auto;
-    height:50px;
-    width:400px;
-    top:625px;
-    left:1050px;
-    text-align: center;
+    height:300px;
+    width:450px; 
+    top:500px;
+    left:1025px;
+    background: url("Images/ANC1914.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
-.allButtons {
-    top:0px;
-    
+#apartheidImage12 {
+    visibility: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+    margin:auto;
+    height:300px;
+    width:450px; 
+    top:500px;
+    left:1025px;
+    background: url("Images/the_south_african_experience_with_changing_the_police_from_within_1050x700.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
 }
+
+#apartheidImage13 {
+    visibility: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+    margin:auto;
+    height:300px;
+    width:450px; 
+    top:150px;
+    left:175px;
+    background: url("Images/winnieMandela.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage14 {
+    visibility: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+    margin:auto;
+    height:300px;
+    width:450px; 
+    top:500px;
+    left:175px;
+    background: url("Images/helenSuzman.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage15 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:150px;
+    left:175px;
+    background: url("Images/stopApartheidRepression.webp");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage16 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:500px;
+    left:175px;
+    background: url("Images/apartheidProtest.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage17 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:150px;
+    left:175px;
+    background: url("Images/sharpevilleMassacre.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage18 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:500px;
+    left:175px;
+    background: url("Images/menAtGunPoint.webp");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage19 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:150px;
+    left:175px;
+    background: url("Images/whiteOnlyBench.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage20 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:500px;
+    left:175px;
+    background: url("Images/whitesOnlySign.avif");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage21 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:150px;
+    left:175px;
+    background: url("Images/SANCO.webp");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage22 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:500px;
+    left:175px;
+    background: url("Images/panAfricanistCongress.png");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage23 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:150px;
+    left:175px;
+    background: url("Images/nationalPartyMembers.jpeg");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+#apartheidImage24 {
+    visibility: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: absolute;
+    margin:auto;
+    height:300px;
+    width:450px;
+    top:500px;
+    left:175px;
+    background: url("Images/colonialismMap.png");
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+
 #resetButton {
     background-color:lightsteelblue;
     height: 20px;
@@ -445,9 +535,9 @@
 
     position:absolute;
     margin:auto;
-    height:750px;
-    width:600px;
-    top:150px;
+    height:400px;
+    width:1600px;
+    top:850px;
     left:50px;
 
     
@@ -460,9 +550,9 @@
 
     position:absolute;
     margin:auto;
-    height: 750px;
-    width: 600px;
-    top:150px;
+    height: 400px;
+    width: 1600px;
+    top:850px;
     left:50px;
     
     visibility: hidden;
@@ -474,9 +564,9 @@
 
     position:absolute;
     margin:auto;
-    height: 750px;
-    width: 600px;
-    top:150px;
+    height: 400px;
+    width: 1600px;
+    top:850px;
     left:50px;
     
     visibility: hidden;
@@ -487,9 +577,9 @@
     justify-content: center;
     position:absolute;
     margin:auto;
-    height: 750px;
-    width: 600px;
-    top:150px;
+    height: 400px;
+    width: 1600px;
+    top:850px;
     left:50px;
     
     visibility: hidden;
@@ -502,9 +592,9 @@
     position:absolute;
     margin:auto;
     text-align:left;
-    height: 750px;
-    width: 600px;
-    top:150px;
+    height: 400px;
+    width: 1600px;
+    top:850px;
     left:50px;
     
     visibility: hidden;
@@ -516,9 +606,9 @@
 
     position:absolute;
     margin:auto;
-    height: 750px;
-    width: 600px;
-    top:150px;
+    height: 400px;
+    width: 1600px;
+    top:850px;
     left:50px;
     
     visibility: hidden;
@@ -527,9 +617,11 @@
     height:20px;
     width:20px;
     position:absolute;
-    top:1200px;
+    top:1400px;
     visibility: visible;
+    /* background-color: red; */
 }
+
 body {
     background-color: silver;
     font-family: 'Courier New', Courier, monospace;
